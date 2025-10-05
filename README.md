@@ -1,4 +1,4 @@
-# Rock-Paper-Scissors Game with Number Choices
+# Assignment One - Rock-Paper-Scissors Game with Number Choices
 
 A simple command-line Rock-Paper-Scissors game implemented in Jaclang, featuring object-oriented design and game statistics tracking.
 
