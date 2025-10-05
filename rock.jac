@@ -17,7 +17,7 @@ obj RockPaperScissorsGame (Game) {
 }
 
 # Entry point
-with entry {
+with entry:__main__ {
     game = RockPaperScissorsGame();
     game.play();
 }
