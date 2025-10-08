@@ -3,79 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Assignment 1 – Rock-Paper-Scissors (Jaclang)</title>
-  <link rel="stylesheet" href="../style.css" />
+  <title>GenAI Assignments | The Open University of Kenya × BCS Technology</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #f4f4f9, #e6f0ff);
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #0078d7;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 0.5px;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    main {
+      max-width: 800px;
+      margin: 3rem auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    h2 {
+      color: #0078d7;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background: #f0f6ff;
+      margin: 1rem 0;
+      border-radius: 8px;
+      padding: 1rem;
+      transition: all 0.25s ease;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    li:hover {
+      background: #0078d7;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    a {
+      text-decoration: none;
+      color: #0078d7;
+      font-weight: 600;
+      font-size: 1.1rem;
+      display: block;
+    }
+    li:hover a {
+      color: #fff;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-  <h1>Assignment 1 – Rock-Paper-Scissors Game (Jaclang)</h1>
+  <header>
+    <h1>Generative AI Course</h1>
+    <p>The Open University of Kenya × BCS Technology</p>
+  </header>
 
-  <p><strong>Course:</strong> Generative AI – The Open University of Kenya × BCS Technology</p>
+  <main>
+    <h2>GenAI Assignments</h2>
+    <p style="text-align:center;">Select an assignment to view details and source code:</p>
 
-  <h2>📘 Project Overview</h2>
-  <p>
-    A simple command-line <strong>Rock-Paper-Scissors</strong> game implemented in <b>Jaclang</b>, featuring
-    object-oriented design and game statistics tracking.
-  </p>
+    <ul>
+      <li><a href="assignment1/">Assignment 1 – Rock-Paper-Scissors (Jaclang)</a></li>
+      <li><a href="assignment2/">Assignment 2 – [Coming Soon]</a></li>
+      <li><a href="assignment3/">Assignment 3 – [Coming Soon]</a></li>
+    </ul>
+  </main>
 
-  <p>
-    🧭 <a href="https://github.com/sabtron-coder/genai/tree/main/assignment1" target="_blank">
-      View Assignment Files on GitHub →
-    </a>
-  </p>
-
-  <h2>📝 Files</h2>
-  <ul>
-    <li><a href="https://github.com/sabtron-coder/genai/blob/main/assignment1/Readme.md" target="_blank">📄 Readme.md</a></li>
-    <li><a href="https://github.com/sabtron-coder/genai/blob/main/assignment1/rock.jac" target="_blank">💻 rock.jac</a></li>
-  </ul>
-
-  <h2>📂 Description</h2>
-  <p>
-    This project is a command-line implementation of the classic Rock-Paper-Scissors game, developed in the Jaclang
-    programming language. The player competes against the computer for three rounds. Results include wins, losses, and
-    draws, summarized at the end.
-  </p>
-
-  <h2>⚙️ How to Run</h2>
-  <ul>
-    
-    <li><pre><code># 1. Clone assignment without full data
-git clone --no-checkout https://github.com/sabtron-coder/genai.git
-cd genai</li>
-<li># 2. Enable sparse checkout:
-git sparse-checkout init --cone</li>
-<br />
-<li># 3. Choose only the folder you want:
-git sparse-checkout set assignment1</li>
-<br />
-<li># 4. Pull that folder:
-git checkout main</li>
-<br />	
-<li># 5. CD to assignment1:
-cd assignment1</li>
-<br />
-<li># 6: Run the game:
-jac run rock.jac
-	</code></pre></li>
-  </ul>
-
-  <h2>🎮 How to Play</h2>
-  <ul>
-    <li>Enter <code>1</code> for Rock</li>
-    <li>Enter <code>2</code> for Paper</li>
-    <li>Enter <code>3</code> for Scissors</li>
-  </ul>
-  <p>The game will display whether you win, lose, or draw each round.</p>
-
-  <h2>🏁 Rules</h2>
-  <ul>
-    <li>Rock beats Scissors</li>
-    <li>Scissors beat Paper</li>
-    <li>Paper beats Rock</li>
-    <li>Same choice = Draw</li>
-  </ul>
-
-  <hr />
-  <p><a href="../index.html">⬅ Back to Assignments Home</a></p>
+  <footer>
+    © 2025 Generative AI Program · The Open University of Kenya × BCS Technology International Pty Ltd
+  </footer>
 </body>
 </html>
