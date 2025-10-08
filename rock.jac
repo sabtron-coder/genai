@@ -1,5 +1,5 @@
 """Rock-Paper-Scissors Game with Number Choices"""
-"""GITHUB LINK: https://github.com/sabtron-coder/genai.git"""
+"""GITHUB LINK: https://github.com/sabtron-coder/genai/tree/main/assignment1"""
 
 import random;
 

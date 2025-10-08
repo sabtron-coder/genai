@@ -2,7 +2,7 @@
 
 A simple command-line Rock-Paper-Scissors game implemented in Jaclang, featuring object-oriented design and game statistics tracking.
 
-**GitHub Repository:** [https://github.com/sabtron-coder/genai.git](https://github.com/sabtron-coder/genai.git)
+**GitHub Repository:** [https://github.com/sabtron-coder/genai/tree/main/assignment1](https://github.com/sabtron-coder/genai/tree/main/assignment1)
 
 ## Description
 
@@ -17,14 +17,28 @@ The game allows a user to play against the computer for a set number of rounds. 
 - A terminal or command-line interface.
 
 ### Steps to Run the Game
-1.  **Clone the repository:**
+1.  **Clone the assignment:**
     ```bash
-    git clone https://github.com/sabtron-coder/genai.git
+    # 1. Clone assignment without full data:
+	git clone --no-checkout https://github.com/sabtron-coder/genai.git
+	cd genai
+
+	# 2. Enable sparse checkout:
+	git sparse-checkout init --cone
+
+	# 3. Choose only the folder you want:
+	git sparse-checkout set assignment1
+
+	# 4. Pull that folder:
+	git checkout main
+	
+	# 5. CD to assignment1:
+	cd assignment1
     ```
 2.  **Navigate to the project directory** where the `.jac` file is located.
 3.  **Execute the game file** using the Jaclang interpreter.
     ```bash
-    jac rock.jac
+    jac run rock.jac
     ```
 
 ## How to Play
