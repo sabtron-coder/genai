@@ -3,102 +3,119 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GenAI Assignments | The Open University of Kenya × BCS Technology</title>
+  <title>GenAI – The Open University of Kenya × BCS Technology</title>
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      font-family: "Segoe UI", Roboto, sans-serif;
-      background: linear-gradient(135deg, #f4f4f9, #e6f0ff);
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background: #f9fafb;
       color: #222;
       margin: 0;
       padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
     header {
-      background: #0078d7;
-      color: #fff;
-      padding: 2rem 1rem;
+      background: linear-gradient(135deg, #0057b7, #00bfa6);
+      color: white;
       text-align: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 2rem 1rem;
     }
     header h1 {
       margin: 0;
       font-size: 2rem;
       letter-spacing: 0.5px;
-      color: #fff;
     }
     header p {
-      margin-top: 0.5rem;
-      font-size: 1.1rem;
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
       opacity: 0.9;
     }
     main {
-      max-width: 800px;
-      margin: 3rem auto;
-      background: #fff;
-      border-radius: 12px;
+      flex: 1;
       padding: 2rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section {
+      margin-bottom: 2rem;
     }
     h2 {
-      color: #0078d7;
-      text-align: center;
-      margin-bottom: 1rem;
+      color: #0057b7;
+      border-left: 4px solid #00bfa6;
+      padding-left: 10px;
     }
     ul {
       list-style: none;
       padding: 0;
     }
-    li {
-      background: #f0f6ff;
-      margin: 1rem 0;
-      border-radius: 8px;
+    ul li {
+      background: white;
+      margin: 0.5rem 0;
       padding: 1rem;
-      transition: all 0.25s ease;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
-    li:hover {
-      background: #0078d7;
+    ul li:hover {
       transform: translateY(-3px);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     a {
       text-decoration: none;
-      color: #0078d7;
+      color: #0057b7;
       font-weight: 600;
-      font-size: 1.1rem;
-      display: block;
-    }
-    li:hover a {
-      color: #fff;
     }
     footer {
+      background: #f1f3f4;
       text-align: center;
-      margin-top: 3rem;
       padding: 1rem;
       font-size: 0.9rem;
-      color: #666;
+      color: #555;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Generative AI Course</h1>
-    <p>The Open University of Kenya × BCS Technology</p>
+    <h1>🧠 GenAI – Generative AI Training</h1>
+    <p>The Open University of Kenya × BCS Technology International Pty Ltd</p>
   </header>
 
   <main>
-    <h2>GenAI Assignments</h2>
-    <p style="text-align:center;">Select an assignment to view details and source code:</p>
+    <section>
+      <h2>📘 About This Repository</h2>
+      <p>
+        This site hosts assignments, projects, and practice exercises for the 
+        <strong>Generative AI Course</strong> offered by 
+        <strong>The Open University of Kenya</strong> in collaboration with 
+        <strong>BCS Technology International Pty Ltd</strong>.
+      </p>
+    </section>
 
-    <ul>
-      <li><a href="assignment1/">Assignment 1 – Rock-Paper-Scissors (Jaclang)</a></li>
-      <li><a href="assignment2/">Assignment 2 – [Coming Soon]</a></li>
-      <li><a href="assignment3/">Assignment 3 – [Coming Soon]</a></li>
-    </ul>
+    <section>
+      <h2>🗂️ Available Assignments</h2>
+      <ul>
+        <li><a href="assignment1/">Assignment 1 – Rock-Paper-Scissors (Jaclang)</a></li>
+        <li><a href="assignment2/">Assignment 2 – Coming Soon</a></li>
+        <li><a href="assignment3/">Assignment 3 – Coming Soon</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎯 Course Objectives</h2>
+      <p>
+        Learners explore how to build and deploy intelligent systems using 
+        Generative AI and programming languages such as <strong>Jaclang</strong>. 
+        Each project encourages practical, creative, and responsible application 
+        of AI tools and models.
+      </p>
+    </section>
   </main>
 
   <footer>
-    © 2025 Generative AI Program · The Open University of Kenya × BCS Technology International Pty Ltd
+    © 2025 The Open University of Kenya × BCS Technology International Pty Ltd<br />
+    <small>“Empowering learners to build intelligent systems with creativity and purpose.”</small>
   </footer>
 </body>
 </html>
